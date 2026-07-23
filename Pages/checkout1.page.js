@@ -2,7 +2,7 @@
 class CheckOut1Page{
     constructor(page){
         this.firstname=page.getByPlaceholder("First Name")
-        this.lastanme=page.getByPlaceholder("Last Name")
+        this.lastname=page.getByPlaceholder("Last Name")
         this.postalcode=page.getByPlaceholder("Zip/Postal Code")
         this.continuebutton= page.getByText("Continue")
     }

@@ -33,7 +33,7 @@ test('Login feature POM and DDT', async ({page}) => {
 
     await cartpage.checkoutbutton.click()
     await checkout1page.firstname.fill(data.firstname)
-    await checkout1page.lastanme.fill(data.lastname)
+    await checkout1page.lastname.fill(data.lastname)
     await checkout1page.postalcode.fill(data.postalcode)
     await checkout1page.continuebutton.click()
 
